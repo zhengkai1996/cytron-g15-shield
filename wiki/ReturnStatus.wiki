@@ -30,3 +30,5 @@ Servo Returned Error (lower byte; bit 7 - 0)
 ||2||Overheating error||
 ||1||Angle limit error||
 ||0||Input voltage error||
+
+For Servo Returned Error, please refer to [http://www.cytron.com.my/viewProduct.php?pid=NzgIAyY1NzkGDzITKjMRIYYmFZsFAKCVNg2CEuolxkk= G15 User Manual] for more info.
