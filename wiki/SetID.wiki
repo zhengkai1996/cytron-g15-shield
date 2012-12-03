@@ -2,7 +2,7 @@
 =SetID()=
 
 ==Description==
-This function set a new ID for the servo. After successful setting, the servo ID is updated to NewID. If error occurs, previous ID is used in servo class.
+This function set a new ID for the servo. After successful setting, the servo ID is updated to NewID.
 
 ==Include==
 G15.h
