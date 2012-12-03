@@ -18,7 +18,7 @@ G15.h
 word SetPos(word position, byte inst);
 
 ==Parameters==
-*position*: goal position (0 - 1087)
+*position*: goal position (decimal: 0 - 1087)
 
 *inst*: iWRITE_DATA or iREG_WRITE
 
@@ -33,6 +33,6 @@ servo1.SetPos(1050, iWRITE_DATA);  //command servo1 to move to position 1050 imm
 
 ReturnStatus
 
-SetSpeed()
+SetSpeed
 
-SetAction()
+SetAction
