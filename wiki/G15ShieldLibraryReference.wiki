@@ -1,3 +1,0 @@
-#labels Arduino,Library,G15,Robotics,Servo
-Cytron G15 Shield Arduino Library Reference
-===========================================
