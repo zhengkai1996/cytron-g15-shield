@@ -15,12 +15,12 @@ The second parameter is write instruction, it can be either:
 G15.h
 
 ==Prototype==
-word SetPos(word Position, byte Write_Reg);
+word SetPos(word position, byte inst);
 
 ==Parameters==
-*Position*: goal position (0 - 1087)
+*position*: goal position (0 - 1087)
 
-*Write_Reg*: iWRITE_DATA or iREG_WRITE
+*inst*: iWRITE_DATA or iREG_WRITE
 
 ==Returns==
 Error status in word. If return is non-zero, error occurred.
@@ -29,8 +29,10 @@ Error status in word. If return is non-zero, error occurred.
 servo1.SetPos(1050, iWRITE_DATA);  //command servo1 to move to position 1050 immediately using user defined speed or default speed.
 
 ==See Also==
+[http://code.google.com/p/cytron-g15-shield/wiki/G15 G15 constructor]
+
 ReturnStatus
 
-SetAction()
-
 SetSpeed()
+
+SetAction()
