@@ -1,0 +1,17 @@
+#labels libraryreference
+=Instruction Set Table=
+
+==Description==
+||Macro||Instruction||Description||Remark||
+||iPING||0x01||Used to obtain a status packet||Handled in function||
+||iREAD_DATA||0x02||Read values from Control Register||Handled in function||
+||iWRITE_DATA||0x03||Write values to Control Register||Pass to function||
+||iREG_WRITE||0x04||Similar to WRITE_DATA instruction but pending execution until iACTION Instruction is called||Currently not implemented||
+||iACTION||0x05||Triggers the pending action registered by REG_WRITE instruction||Currently not implemented||
+||iRESET||0x06||Resetting the Control Register values to factory defaults||Handled in function||
+||iSYNC_WRITE||0x83||Controlling multiple G15 in one single instruction packet||User program||
+
+Pass a Macro to related function to initiate desired action.
+
+==Example==
+servo1.SetPos(1050,iWRITE_DATA); //this line commands the servo to move to position 1050 immediately.
