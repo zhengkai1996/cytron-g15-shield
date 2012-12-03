@@ -20,4 +20,4 @@ Status error. If return is non-zero, error occurred and ID used by servo class r
 servo1.SetID(5);  //set servo1's ID to 5.
 
 ==See Also==
-none
+ReturnStatus
