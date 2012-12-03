@@ -1,3 +1,4 @@
+#labels libraryreference
 =G15()=
 
 ==Description==
@@ -17,4 +18,4 @@ None
 
 ==Example==
 G15 servo1(1);
-This is declaration of an object named servo1 which belongs to G15 class. It has the ID of 1.
+//This is declaration of an object named servo1 which belongs to G15 class. It has the ID of 1.
