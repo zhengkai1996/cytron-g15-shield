@@ -1,0 +1,31 @@
+#labels libraryreference
+=SetPos()=
+
+==Description==
+This function sets the goal position of servo. 
+The first parameter is goal position in word (decimal: 0 - 1087). 
+The second parameter is write instruction, it can be either:
+1.iWRITE_DATA - execute the action immediately.
+2.iREG_WRITE - register the action and wait for iAction instruction.
+
+==Include==
+G15.h
+
+==Prototype==
+word SetPos(word Position, byte Write_Reg);
+
+==Parameters==
+*Position*: goal position (0 - 1087)
+
+*Write_Reg*: iWRITE_DATA or iREG_WRITE
+
+==Returns==
+Error status in word. If return is non-zero, error occurred.
+
+==Example==
+servo1.SetPos(1050, iWRITE_DATA);  //command servo1 to move to position 1050 immediately using user defined speed or default speed.
+
+==See Also==
+ReturnStatus
+SetAction()
+SetSpeed()
