@@ -17,7 +17,9 @@ word SetID(byte NewID);
 Error status in word. If return is non-zero, error occurred.
 
 ==Example==
-servo1.SetID(5);  //set servo1's ID to 5.
+word stat;
+
+stat = servo1.SetID(5);  //set servo1's ID to 5.
 
 ==See Also==
 ReturnStatus
