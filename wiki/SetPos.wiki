@@ -5,8 +5,11 @@
 This function sets the goal position of servo. 
 The first parameter is goal position in word (decimal: 0 - 1087). 
 The second parameter is write instruction, it can be either:
+
 1.iWRITE_DATA - execute the action immediately.
+
 2.iREG_WRITE - register the action and wait for iAction instruction.
+
 
 ==Include==
 G15.h
@@ -27,5 +30,7 @@ servo1.SetPos(1050, iWRITE_DATA);  //command servo1 to move to position 1050 imm
 
 ==See Also==
 ReturnStatus
+
 SetAction()
+
 SetSpeed()
