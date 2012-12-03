@@ -23,7 +23,9 @@ word SetLED(byte on_off, byte inst);
 Error status in word. If return is non-zero, error occurred. Refer ReturnStatus.
 
 ==Example==
-servo1.SetLED(1,iWRITE_DATA);  //turned on servo1's LED immediately.
+word stat;
+
+stat = servo1.SetLED(1,iWRITE_DATA);  //turned on servo1's LED immediately.
 
 ==See Also==
 [http://code.google.com/p/cytron-g15-shield/wiki/G15 G15 constructor]
