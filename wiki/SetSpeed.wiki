@@ -22,7 +22,8 @@ word SetSpeed(word speed, byte inst);
 Error status in word. If return is non-zero, error occurred. Refer ReturnStatus.
 
 ==Example==
-servo1.SetSpeed(300,iWRITE_DATA);  //sets servo1's moving speed to 300 immediately.
+word stat;
+stat = servo1.SetSpeed(300,iWRITE_DATA);  //sets servo1's moving speed to 300 immediately.
 
 ==See Also==
 [http://code.google.com/p/cytron-g15-shield/wiki/G15 G15 constructor]
