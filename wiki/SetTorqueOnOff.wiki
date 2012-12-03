@@ -16,7 +16,7 @@ G15.h
 word SetTorqueOnOff(byte on_off, byte inst);
 
 ==Parameters==
-*on_off*: goal position (decimal: 0 - 1087)
+*on_off*: on = 1, off = 0
 
 *inst*: iWRITE_DATA or iREG_WRITE
 
