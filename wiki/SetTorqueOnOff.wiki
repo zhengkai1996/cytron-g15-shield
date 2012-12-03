@@ -4,23 +4,19 @@
 ==Description==
 This function turns the servo torque on or off. When turned on, the servo will hold its shaft in position; when turned off the shaft can be freely turned by hand. 
 
-If OnOff = 1, torque is on and if OnOff = 0, torque is off.
+If on_off = 1, torque is on and if on_off = 0, torque is off.
 
-The second parameter is write instruction, it can be either:
-
-1.iWRITE_DATA - execute the action immediately.
-
-2.iREG_WRITE - register the action and wait for SetAction() function call.
+The second parameter is InstructionSet.
 
 
 ==Include==
 G15.h
 
 ==Prototype==
-word SetTorqueOnOff(byte OnOff, byte inst);
+word SetTorqueOnOff(byte on_off, byte inst);
 
 ==Parameters==
-*OnOff*: goal position (decimal: 0 - 1087)
+*on_off*: goal position (decimal: 0 - 1087)
 
 *inst*: iWRITE_DATA or iREG_WRITE
 
@@ -28,13 +24,11 @@ word SetTorqueOnOff(byte OnOff, byte inst);
 Error status in word. If return is non-zero, error occurred. Refer ReturnStatus.
 
 ==Example==
-servo1.SetPos(1050, iWRITE_DATA);  //command servo1 to move to position 1050 immediately 
-
-using user defined speed or default speed.
+servo1.SetPos(1050, iWRITE_DATA);  //command servo1 to move to position 1050 immediately using user defined speed or default speed.
 
 ==See Also==
 [http://code.google.com/p/cytron-g15-shield/wiki/G15 G15 constructor]
 
-ReturnStatus
+InstructionSet
 
-SetAction
+ReturnStatus
