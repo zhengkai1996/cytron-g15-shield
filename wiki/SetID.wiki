@@ -1,0 +1,23 @@
+#labels libraryreference
+=SetID()=
+
+==Description==
+This function set a new ID for the servo. After successful setting, the servo ID is updated to NewID. If error occurs, previous ID is used in servo class.
+
+==Include==
+G15.h
+
+==Prototype==
+word SetID(byte NewID);
+
+==Parameters==
+*NewID*: 
+
+==Returns==
+Status error. If return is non-zero, error occurred and ID used by servo class remains the same as previous ID.
+
+==Example==
+servo1.SetID(5);  //set servo1's ID to 5.
+
+==See Also==
+none
