@@ -24,7 +24,7 @@ word SetTorqueOnOff(byte on_off, byte inst);
 Error status in word. If return is non-zero, error occurred. Refer ReturnStatus.
 
 ==Example==
-servo1.SetPos(1050, iWRITE_DATA);  //command servo1 to move to position 1050 immediately using user defined speed or default speed.
+servo1.SetTorqueOnOff(1,iWRITE_DATA);  //turned on servo1's torque immediately.
 
 ==See Also==
 [http://code.google.com/p/cytron-g15-shield/wiki/G15 G15 constructor]
