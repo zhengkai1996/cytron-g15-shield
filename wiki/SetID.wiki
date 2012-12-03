@@ -14,7 +14,7 @@ word SetID(byte NewID);
 *NewID*: 
 
 ==Returns==
-Status error. If return is non-zero, error occurred and ID used by servo class remains the same as previous ID.
+Error status in word. If return is non-zero, error occurred.
 
 ==Example==
 servo1.SetID(5);  //set servo1's ID to 5.
