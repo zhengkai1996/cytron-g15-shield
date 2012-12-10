@@ -25,9 +25,13 @@ word stat,pos;
 byte data`[`4`]`; 
 
 stat = servo1.GetPos(data);  //get the current position from servo1
+
 pos=data[0]; 
+
 pos|=word(data[1])<<8;
+
 Angle =ConvertPos2Angle(pos); 
+
 
 ==See Also==
 
