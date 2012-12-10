@@ -10,7 +10,7 @@ Use ConvertPos2Angle() macro to convert to angle value in degree. The macro retu
 G15.h
 
 ==Prototype==
-word GetPos(byte\* data);
+word GetPos(byte** data);
 
 ==Parameters==
 *byte* data*: pointer to an array to keep the retrieved data. At least 2 bytes size of array need to be declared first. 
