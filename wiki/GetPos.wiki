@@ -21,7 +21,7 @@ Error status in word. If return is non-zero, error occurred. Refer ReturnStatus.
 ==Example==
 word stat;
 
-byte data[4]; 
+byte data`[`4`]`; 
 
 stat = servo1.GetPos(data);  //get the current position from servo1
 
