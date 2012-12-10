@@ -8,7 +8,7 @@ To request the status packet from a particular servo. The data byte is passed by
 G15.h
 
 ==Prototype==
-word Ping(byte{{*}} data);
+word Ping(byte{{{*}}} data);
 
 ==Parameters==
 *data*: pass a variable declared as byte by pointer
