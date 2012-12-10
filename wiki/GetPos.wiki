@@ -20,7 +20,7 @@ word GetPos(byte {{{*}}} data);
 Error status in word. If return is non-zero, error occurred. Refer ReturnStatus.
 
 ==Example==
-word stat,pos;
+word stat,pos=0;
 
 byte data`[`4`]`; 
 
