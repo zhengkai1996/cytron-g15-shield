@@ -14,7 +14,7 @@ word SetWheelMode(void);
 none
 
 ==Returns==
-Error status in word. If return is non-zero, error occurred. Refer return status  [http://code.google.com/p/cytron-g15-shield/wiki/ReturnStatus] 
+Error status in word. If return is non-zero, error occurred. 
 
 ==Example==
 servo1.SetWheelMode();  //set servo 1 into wheel mode
@@ -26,5 +26,3 @@ servo1.SetWheelMode();  //set servo 1 into wheel mode
 InstructionSet
 
 ReturnStatus
-
-SetSpeed
