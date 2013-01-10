@@ -24,7 +24,6 @@ stat = servo1.ExitWheelMode();  //servo1 exit wheel mode
 ==See Also==
 [http://code.google.com/p/cytron-g15-shield/wiki/G15 G15 constructor]
 
-InstructionSet
 
 SetWheelMode
  
