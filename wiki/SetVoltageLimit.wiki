@@ -12,7 +12,10 @@ word SetVoltageLimit(byte VoltageLow, byte VoltageHigh);
 
 ==Parameters==
 *VoltageLow*: 65-178
+
+
 *VoltageHigh*: 65-178
+
 
 65-178 is corresponding to  6.5V to 17.8V
 
