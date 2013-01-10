@@ -23,6 +23,8 @@ servo1.SetWheelMode();  //set servo 1 into wheel mode
 ==See Also==
 [http://code.google.com/p/cytron-g15-shield/wiki/G15 G15 constructor]
 
-InstructionSet
+
+ExitWheelMode
+
 
 ReturnStatus
