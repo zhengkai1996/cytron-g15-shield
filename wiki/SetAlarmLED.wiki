@@ -14,13 +14,21 @@ word SetAlarmLED(byte AlarmLED);
 *AlarmLED*: 
 
 Bit 7	Reserved
+
 Bit 6	Instruction Error
+
 Bit 5	Overload Error
+
 Bit 4	Checksum Error
+
 Bit 3	Range Error
+
 Bit 2	Overheating Error
+
 Bit 1	Angle Limit Error
+
 Bit 0	Input Voltage Error
+
 
 1 bytes of AlarmLED which every bits represent different errors. user set the alarm LED to blink of several errors by setting all the corresponding bit. 
 
