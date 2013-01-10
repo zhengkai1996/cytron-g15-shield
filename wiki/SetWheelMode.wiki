@@ -27,4 +27,7 @@ servo1.SetWheelMode();  //set servo 1 into wheel mode
 ExitWheelMode
 
 
+SetWheelSpeed 
+ 
+
 ReturnStatus
