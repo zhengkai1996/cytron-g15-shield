@@ -35,6 +35,5 @@ Angle =ConvertPos2Angle(pos);
 
 ==See Also==
 
-InstructionSet
 
 ReturnStatus
