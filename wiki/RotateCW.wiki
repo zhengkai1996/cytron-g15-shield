@@ -28,7 +28,7 @@ servo1.RotateCW (ConvertAngle2Pos(180), iWRITE_DATA); //command servo1 to move t
 
 InstructionSet
 
-RotateCCW 
+RotateCCW
 
 ReturnStatus
 
