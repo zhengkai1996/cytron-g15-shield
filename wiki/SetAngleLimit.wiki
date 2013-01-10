@@ -25,7 +25,7 @@ Error status in word. If return is non-zero, error occurred. Refer ReturnStatus.
 ==Example==
 word stat;
 
-stat = servo1.SetAngleLimit(100, 256);  //sets rotation angle limits of G125  
+stat = servo1.SetAngleLimit(100, 256);  //sets rotation angle limits of G15  
 
 ==See Also==
 [http://code.google.com/p/cytron-g15-shield/wiki/G15 G15 constructor]
