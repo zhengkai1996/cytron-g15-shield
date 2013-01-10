@@ -8,7 +8,7 @@ This function sets G15 to rotate in clockwise direction to a goal position. The 
 G15.h
 
 ==Prototype==
-word RotateCW(word Position, byte Write_Reg); 
+word RotateCW(word Position, byte inst); 
 
 ==Parameters==
 *position*: goal position (decimal: 0 - 1087)
