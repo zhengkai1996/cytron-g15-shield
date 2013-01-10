@@ -19,7 +19,7 @@ word GetSpeed(byte {{{*}}} data);
 Error status in word. If return is non-zero, error occurred. Refer ReturnStatus.
 
 ==Example==
-word stat,pos=0;
+word stat,speed=0;
 
 byte data`[`4`]`; 
 
