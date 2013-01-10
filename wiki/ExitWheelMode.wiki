@@ -27,6 +27,5 @@ stat = servo1.ExitWheelMode();  //servo1 exit wheel mode
 InstructionSet
 
 SetWheelMode
-
  
 ReturnStatus
