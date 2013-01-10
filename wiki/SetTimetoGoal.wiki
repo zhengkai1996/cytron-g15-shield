@@ -10,7 +10,7 @@ This is an alternative way to set the rotation speed of G15 Cube Servo
 G15.h
 
 ==Prototype==
-word SetTimetoGoal(word Time,byte Write_Reg); 
+word SetTimetoGoal(word Time, byte inst); 
 
 ==Parameters==
 *Time*: 1-4095 which represents 0.1 seconds to 409.5 seconds. 
