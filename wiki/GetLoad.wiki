@@ -23,7 +23,7 @@ word stat,load=0;
 
 byte data`[`4`]`; 
 
-stat = servo1.GetLoad(data);  //get the current Speed from servo1
+stat = servo1.GetLoad(data);  //get the current load from servo1
 
 load=data`[`0`]`; 
 
