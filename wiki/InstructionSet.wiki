@@ -15,3 +15,7 @@ Pass a Macro to related function to initiate desired action.
 
 ==Example==
 servo1.SetPos(1050,iWRITE_DATA); //this line commands the servo to move to position 1050 immediately.
+
+servo1.SetPos(ConvertAngle2Pos(0),iREG_WRITE); //goto 0 degree pos after action instruction called
+
+G15::SetAction();
